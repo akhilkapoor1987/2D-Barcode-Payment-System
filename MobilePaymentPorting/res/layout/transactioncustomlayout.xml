@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" android:background="#efefee">
+<LinearLayout  android:layout_width="fill_parent"
+android:layout_height="wrap_content">
+<TextView android:text="@+id/TextView01" android:id="@+id/TextView01"
+android:textColor="#000000" android:textSize="15px"
+android:layout_height="fill_parent" android:layout_width="fill_parent"></TextView>
+
+</LinearLayout>
+</ScrollView>

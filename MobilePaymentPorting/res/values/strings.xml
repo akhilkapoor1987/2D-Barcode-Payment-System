@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="aboutus">TouchPay Inc. is a rapidly growing startup in the Mobile Payments sector. We are the designers of an independent 2D Barcode based Payment System that currently supports QR codes. This application is developed as a Masters Project by two Student Software Developers from San Jose State University.
+	Thank you for using our application.
+	For further Information please contact PayByBarcode@touchpay.com
+	</string>
+	<string name="HomePage">Home Page</string>
+	<string name="history">Transaction History</string>
+	<string name="thankyou">Thank you for your Purchase. A receipt will be emailed to you shortly.</string>
+	<string name="receipt">Receipt Details</string>
+		<string name="pinNumber">Pin (4 digit,[a-z,0-9]):</string>
+	
+	<string name="Ordernum">Order Number:</string>
+	    <color name="titletextcolor">#FFFFFF</color>
+	
+	<string name="amtCharged">Amount Charged:</string>
+	<string name="walletAmt">Wallet Balance:</string>
+	<string name="hello1">Order Details</string>
+	<string name="amount">Total Amount: </string>
+	<string name="ConfirmPay">Place Order</string>
+	<string name="ProCatalog">Back to Catalog</string>
+		<string name="ProceedToCheckout">Checkout</string>
+	
+	<string name="check">Use Account Address for Shipping</string>
+		<string name="check1">Use existing Wallet for Payment</string>
+	
+	<string name="ShipStreet">Street Address</string>
+	<string name="ShipCity">City</string>
+	<string name="ShipZip">Zip</string>
+	<string name="ShipState">State</string>
+	<string name="total">Total Amount is </string>
+	<string name="total6">Order Total:</string>
+	<string name="viewBarcode">Transaction History</string>
+		<string name="viewBarcode1">Account Home</string>
+	
+
+	<string name="total3">Transaction ID:</string>
+
+	<string name="total4">Purchase Date:</string>
+	<string name="transactionDetails">Transaction Details:</string>
+
+
+	<string name="hello">Hello World, main!</string>
+	<string name="app_name">TouchPay</string>
+	<string name="mainWinTitle">Main Menu</string>
+	<string name="registerWinTitle">Select a User ID</string>
+	<string name="registerID">Please enter a user ID</string>
+	<string name="registerDetailsWinTitle">PIN and Personal Details Registration</string>
+	<string name="registerNext">Next</string>
+	<string name="firstname">First Name</string>
+	<string name="lastname">Last Name</string>
+	<string name="password">Password</string>
+	<string name="address">Street Address</string>
+	<string name="city">City</string>
+	<string name="zip">Zip</string>
+	<string name="state">State</string>
+	<string name="email">Email</string>
+	<string name="registerWalletWinTitle">E-Wallet Registration</string>
+		<string name="registerWalletWinTitle2">E-Wallet Recharge</string>
+	
+	<string name="registerWalletBank">Bank Name:</string>
+	<string name="registerWalletBankAcc">Bank Account Number:</string>
+	<string name="registerWalletCard">Select Credit Card Type</string>
+	<string name="registerWalletCardType">Select a Type</string>
+	<string name="registerWalletCardNum">Credit Card Number:</string>
+	<string name="registerWalletExpDate">Expired Date:</string>
+	<string name="registerWalletAmount">Amount in USD:</string>
+	<string name="shoppingWinTitle">Product List</string>
+	<string name="shoppingDetailsWinTitle">Product Details</string>
+	<string name="shoppingDetailsID">Product ID:</string>
+	<string name="shoppingDetailsName">Product Name:</string>
+	<string name="shoppingDetailsPrice">Price:</string>
+	<string name="shoppingDetailsMerchantID">Merchant ID:</string>
+	<string name="shoppingDetailsMerchantName">Description:</string>
+	<string name="shoppingDetailsMerchantURL">Available Quantity:</string>
+	<string name="shoppingResult">You have bought:</string>
+	<string name="transactionWinTitle">Transaction Infomation</string>
+	<string name="shoppingResultWinTitle">Transaction Information</string>
+	<string name="transactionID">Transaction ID:</string>
+	<string name="transactionDate">Transaction Date:</string>
+	<string name="transactionMerchantName">Merchant Name:</string>
+	<string name="transactionItemName">Item Name:</string>
+	<string name="transactionAmount">Amount:</string>
+	<string name="loginWinTitle">Login</string>
+	<string name="loginID">User ID:</string>
+	<string name="loginPIN">PIN:</string>
+	<string name="loginMode">Shared Secret Mode</string>
+	<string name="securityMode1">Clear Shared Secred Transfer - Pure ECDH</string>
+	<string name="securityMode2">Signed and Encrypted Mode - ECDH - ECDSA</string>
+	<string name="testClientWinTitle">Test Client</string>
+	<string name="testClientTitle">Run Encryption/Decryption Performance Tests
+	</string>
+	<string name="testClientNumofChar">Number of Characters To Encrypt:</string>
+	<string name="testClientRunBarcode">Run Barcode Performance Tests</string>
+	<string name="cancel">Go Back</string>
+	<string name="next">Next</string>
+	<string name="confirm">Confirm</string>
+	<string name="buy">Add to Cart</string>
+	<string name="main">Main Menu</string>
+	<string name="yes">Yes</string>
+	<string name="no">No</string>
+	<string name="test">Test</string>
+	<string name="CartDetailsPrice">Product Name:</string>
+	<string name="CartDetailsPName">Price:</string>
+	<string name="QuantityType">Quantity type:</string>
+	<string name="CartQuantity">Quantity:</string>
+	<string name="Catalog">Product Catalog</string>
+	<string name="Quantity">Select Quantity:</string>
+	<string name="Delete">Delete</string>
+	<string name="Pay">Pay Now</string>
+	<string name="CartDetailsQaunt">Quantity</string>
+	<string name="FinalCartDetails">Final Cart Details</string>
+
+
+	<string-array name="noOfItems">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+	</string-array>
+
+
+	<string name="paymentmethod">Select Card Type:</string>
+	<string-array name="cardType">
+		<item>VISA</item>
+		<item>Master Card</item>
+		<item>Discover</item>
+	</string-array>
+
+</resources>

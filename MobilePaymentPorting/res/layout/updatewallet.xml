@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" android:background="#efefee">
+<LinearLayout
+  
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  >
+  <TextView
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:text="@string/registerWalletBank" android:textColor="#000000"
+  />
+  <EditText
+  	android:id="@+id/bankName1"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  android:editable="true"/>
+  <TextView
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:text="@string/registerWalletBankAcc" android:textColor="#000000"
+  />
+  <EditText
+  	android:id="@+id/bankAcc1"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  android:editable="true"/>
+  <LinearLayout
+  	android:orientation="horizontal"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  >
+  <TextView
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:text="@string/registerWalletCard" android:textColor="#000000"
+  />
+  <Spinner
+  	android:id="@+id/creditCardTypeSpinner1"
+  	android:layout_width="120px"
+  	android:layout_height="wrap_content"
+  	android:prompt="@string/registerWalletCardType"
+  />
+  </LinearLayout>
+  <TextView
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:text="@string/registerWalletCardNum" android:textColor="#000000"
+  />
+  <EditText
+  	android:id="@+id/creditCardNum1"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  android:editable="true"/>
+  <TextView
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:text="@string/registerWalletExpDate" android:textColor="#000000"
+  />
+  <EditText
+  	android:id="@+id/expDate1"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:hint="yyyy-mm-dd"
+  android:editable="true"/>
+  <TextView
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:text="@string/registerWalletAmount" android:textColor="#000000"
+  />
+  <EditText
+  	android:id="@+id/amount1"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  android:editable="true"/>
+  <LinearLayout
+  	android:orientation="horizontal"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:gravity="center"
+  >
+  <Button
+  	android:id="@+id/walletCancel1"
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:text="@string/cancel"
+  />
+  <Button
+  	android:id="@+id/walletConfirm1"
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:text="Update Wallet"
+  />
+  </LinearLayout>
+</LinearLayout>
+</ScrollView>

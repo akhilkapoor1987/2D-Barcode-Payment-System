@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="sjsu.mobilepayment.client" android:versionCode="1"
+	android:versionName="1.0">
+	<application android:icon="@drawable/icon" android:label="@string/app_name" >
+		<activity android:name=".main" >
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name="PayNow"></activity>
+		<activity android:name="ProductScan"></activity>
+		<activity android:name="UpdateRegisterDetails"></activity>
+		<activity android:name="UpdateRegisterWallet"></activity>
+		<activity android:name="viewProductBarcode"></activity>
+		<activity android:name="Receipt"></activity>
+		<activity android:name="ProductList"></activity>
+		<activity android:name="RegisterUserID"></activity>
+		<activity android:name="RegisterDetails"></activity>
+		<activity android:name="RegisterWallet"></activity>
+		<activity android:name="ItemList"></activity>
+		<activity android:name="ProductDetails"></activity>
+		<activity android:name="Login"></activity>
+		<activity android:name="ShoppingCartActivity"></activity>
+		<activity android:name="FinalCart1"></activity>
+		<activity android:name="TransactionHistory"></activity>
+		<activity android:name="TransactionDetailed"></activity>
+		<activity android:name="mainAfterLogin"></activity>
+		<activity android:name="FinalCart0"></activity>
+		<activity android:name="RechargeWallet"></activity>
+		<activity android:name="MyWallet"></activity>
+		<activity android:name="ViewBarcode"></activity>
+		<activity android:name="miniStat"></activity>
+		<activity android:name="Transaction"></activity>
+		<activity android:name="TransactionBarcode"></activity>
+		<activity android:name="TransactionZing"></activity>
+		<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+		
+	</application>
+	<uses-sdk android:minSdkVersion="9" />
+		<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+		
+
+
+</manifest> 

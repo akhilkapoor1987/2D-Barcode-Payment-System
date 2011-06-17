@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:background="#efefee" android:layout_height="wrap_content">
+<TableLayout
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+   >
+  <TableRow>
+      <TextView android:width="70px" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#000000" android:text="@string/firstname"></TextView>
+  	<EditText
+  		android:id="@+id/firstname"
+  		android:width="250px"
+  	/>
+  </TableRow>
+  <TableRow>
+  	<TextView
+  		android:text="@string/lastname"
+  		android:width="70px"
+  		android:textColor="#000000"
+  	/>
+  	<EditText
+  		android:id="@+id/lastname"
+  		android:width="250px"
+  	/>
+  </TableRow>
+  <TableRow>
+  	<TextView
+  		android:text="@string/address"
+  		android:width="70px"
+  		android:textColor="#000000"
+  	/>
+  	<EditText
+  		android:id="@+id/address"
+  		android:width="250px"
+  	/>
+  </TableRow>
+  
+  <TableRow>
+  	<TextView
+  		android:text="@string/city"
+  		android:width="70px"
+  		android:textColor="#000000"
+  	/>
+  	<EditText
+  		android:id="@+id/city"
+  		android:width="250px"
+  	/>
+  </TableRow>
+  
+  <TableRow>
+  	<TextView
+  		android:text="@string/state"
+  		android:width="70px"
+  		android:textColor="#000000"
+  	/>
+  	<EditText
+  		android:id="@+id/state"
+  		android:width="250px"
+  	/>
+  </TableRow>
+  
+  
+  <TableRow>
+  	<TextView
+  		android:text="@string/password"
+  		android:width="70px"
+  		android:textColor="#000000"
+  	/>
+  	<EditText
+  		android:id="@+id/password"
+  		android:width="250px"
+  	/>
+  </TableRow>
+  	<TextView
+  		android:text="@string/email"
+  		android:layout_width="fill_parent"
+  		android:textColor="#000000"
+  	/>
+  
+  
+  	<EditText
+  	android:id="@+id/email"
+  	android:layout_width="fill_parent"
+  />
+  
+ <LinearLayout  android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center">
+  	<Button
+  		android:id="@+id/detailsCancel"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		
+  		android:text="@string/cancel"
+  	/>
+  	<Button
+  		android:id="@+id/detailsNext"
+  		android:text="@string/next"
+  	android:layout_height="wrap_content" android:layout_width="wrap_content"/>
+  	</LinearLayout>
+</TableLayout>
+</ScrollView>

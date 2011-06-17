@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" android:background="#efefee">
+
+<LinearLayout 
+	android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical"
+	>
+
+<ScrollView android:id="@+id/ScrollView01"
+		android:layout_width="fill_parent" android:layout_height="120px">
+
+
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="120px">
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:text="@string/transactionDetails"  android:textColor="#000000"/>
+		<ListView android:id="@+id/ListView01" android:layout_height="fill_parent"
+			android:layout_width="fill_parent"></ListView>
+	</LinearLayout>
+
+
+
+
+
+
+	
+	</ScrollView>
+
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<TextView android:text="@string/total6" android:layout_width="wrap_content"
+			android:layout_height="wrap_content"  android:textColor="#000000"/>
+		<TextView android:id="@+id/total7" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textColor="#000000" />
+	</LinearLayout>
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+		<TextView android:text="@string/total3" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textColor="#000000" />
+		<TextView android:id="@+id/total1" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textColor="#000000" />
+	</LinearLayout>
+
+
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<TextView android:text="@string/total4" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textColor="#000000" />
+		<TextView android:id="@+id/total2" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textColor="#000000" />
+
+
+	</LinearLayout>
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<Button
+        android:id="@+id/button93"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="0dp"
+        android:background="@drawable/android_button"
+        android:gravity= "center" />
+
+
+</LinearLayout>
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		
+		<Button android:layout_width="match_parent" android:id="@+id/finalBuy1" android:layout_height="wrap_content" android:text="@string/viewBarcode"
+		android:gravity="center"></Button>
+
+	</LinearLayout>
+</LinearLayout>
+</ScrollView>

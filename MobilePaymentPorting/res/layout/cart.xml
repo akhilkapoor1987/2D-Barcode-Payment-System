@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:orientation="vertical">
+    
+    
+           <LinearLayout
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  android:orientation="horizontal">
+  <TextView
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:text="@string/CartDetailsPName"
+  />
+  <TextView
+  	android:id="@+id/CartDetailsPname"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  />
+   </LinearLayout>
+ 
+   <LinearLayout
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  android:orientation="horizontal">
+  <TextView
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:text="@string/CartDetailsPrice"
+  />
+  <TextView
+  	android:id="@+id/CartDetailsPrice"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  />
+   </LinearLayout>
+  
+   <LinearLayout
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  android:orientation="horizontal">
+  <TextView
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:text="@string/CartDetailsQaunt"
+  />
+  <TextView
+  	android:id="@+id/CartDetailsQuantity"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  />
+   </LinearLayout>
+  
+  
+      
+   
+     <LinearLayout
+  	android:orientation="horizontal"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  >
+         <CheckBox android:text="Use Wallet Address" android:id="@+id/checkBox1" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+    
+    </LinearLayout>
+ 
+  <LinearLayout
+    android:orientation="horizontal"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"   >
+  
+     <Button android:layout_width="205px" android:text="@string/Pay" android:id="@+id/Pay" android:layout_height="wrap_content"></Button>
+     <Button android:layout_width="205px" android:text="@string/Catalog" android:id="@+id/ProductCatalog" android:layout_height="wrap_content"></Button>
+</LinearLayout>
+
+</LinearLayout>

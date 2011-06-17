@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="#efefee">
+  <TextView
+  	android:id="@+id/TextViewRegisterID"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:text="@string/registerID"
+  	android:textColor="#000000"
+  />
+  <EditText
+  	android:id="@+id/UserID"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:layout_below="@id/TextViewRegisterID"
+  />
+  <Button
+  	android:id="@+id/Next"
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:layout_below="@id/UserID"
+  	android:layout_alignParentRight="true"
+  	android:layout_marginLeft="10dip"
+  	android:text="@string/registerNext"
+  />
+  <Button
+  	android:id="@+id/Cancel"
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:layout_toLeftOf="@id/Next"
+  	android:layout_alignTop="@id/Next"
+  	android:text="@string/cancel"
+  />
+</RelativeLayout>

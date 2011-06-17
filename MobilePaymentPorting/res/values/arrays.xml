@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="rootMenu">
+		<item>Register</item>
+		<item>Product Catalog</item>
+		<item>Login </item>
+		<item>Scan Barcode</item>
+		
+	</string-array>
+		
+	<string-array name="menuAfterLogin">
+		<item>Product Catalog</item>
+		<item>My Wallet</item>
+		<item>Scan 2D Barcode</item>
+		<item>Pay Now</item>
+	</string-array>
+</resources>

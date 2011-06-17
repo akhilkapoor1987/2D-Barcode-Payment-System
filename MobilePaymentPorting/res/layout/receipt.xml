@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical"
+  android:background="#efefee">
+<LinearLayout
+   android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical"
+  >
+<TextView
+  	android:layout_width="fill_parent"
+  	android:layout_height="50px"
+  	android:text="@string/thankyou"
+  	android:textColor="#000000"
+  />
+  <TextView
+  	android:layout_width="fill_parent"
+  	android:layout_height="20px"
+  	android:textColor="#000000"
+  	android:text="@string/receipt"
+  />
+ <LinearLayout android:orientation="vertical"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content">
+  <TextView
+  	android:layout_width="100px"
+  	android:layout_height="25px"
+  	android:text="@string/Ordernum" android:textColor="#000000"
+  />
+  <TextView
+  	android:layout_width="100px"
+  	android:layout_height="wrap_content"
+  	android:id="@+id/order" android:textColor="#000000"
+  />
+  
+  <TextView
+  	android:layout_width="100px"
+  	android:layout_height="25px"
+  	android:text="@string/amtCharged" android:textColor="#000000"
+  />
+  <TextView
+  	android:layout_width="100px"
+  	android:layout_height="wrap_content"
+  	android:id="@+id/amount" android:textColor="#000000"
+  /> 
+  <TextView
+  	android:layout_width="100px"
+  	android:layout_height="25px"
+  	android:text="@string/walletAmt" android:textColor="#000000"
+  />
+  <TextView
+  	android:layout_width="100px"
+  	android:layout_height="wrap_content"
+  	android:id="@+id/wallet" android:textColor="#000000"
+  />
+  </LinearLayout>
+  
+  <LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		
+		<Button
+        android:id="@+id/button93"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="0dp"
+        android:background="@drawable/android_button" />
+
+	</LinearLayout>
+  
+  
+    <LinearLayout
+  	android:orientation="horizontal"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:layout_gravity = "center"
+  >
+  <Button
+  	android:id="@+id/history"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:text="@string/history"
+  	android:gravity = "center"
+  	
+  />
+  
+  </LinearLayout>
+</LinearLayout>
+</ScrollView>
