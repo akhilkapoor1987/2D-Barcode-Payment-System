@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre6">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Prabir/Desktop/anet_java_sdk-1.4.3/anet_java_sdk/target/anet-java-sdk-1.4.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Prabir/Desktop/anet_java_sdk-1.4.3/anet_java_sdk/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Prabir/Desktop/anet_java_sdk-1.4.3/anet_java_sdk/lib/httpclient-4.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Prabir/Desktop/anet_java_sdk-1.4.3/anet_java_sdk/lib/httpcore-4.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Prabir/Desktop/anet_java_sdk-1.4.3/anet_java_sdk/lib/junit-4.8.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Prabir/Desktop/anet_java_sdk-1.4.3/anet_java_sdk/lib/log4j-1.2.16.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
